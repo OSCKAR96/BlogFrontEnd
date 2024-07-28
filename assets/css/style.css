@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.header__logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+.header__text{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+
+/* novedades  */
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.post__header{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.post__img{
+    width: 100%;
+}
+
+.post__bajada{
+    padding-left: 10px;
+}
+
+.post__fecha{
+    display: block;
+    font-weight: 400;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.post__titulo{
+    font-weight: bold;
+}
+
+.tag{
+    display: flex;
+    align-items: center; 
+}
+
+.tag__img{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.tag__titulo{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.tag__img--little{
+    height: 45px;
+    width: 45px;
+}
+
+.tag__titulo--little{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.post--derecho{
+    flex-direction: row;
+}
+
+.post__img--little{
+    height: 150px;
+    max-width: 100%;
+}
+
+.post__fecha--little{
+    height: 35px;
+    font-weight: 300;
+}
+
+.post__titulo--little{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+
+/* popu */
+/* .container__popu{
+    max-width: 900px;
+} */
+
+#populares .post__img{
+    aspect-ratio: 298/200;
+}
+
+#populares .post__titulo{
+    font-size: 21px;
+    font-weight: 600;
+    height: 40px;
+    overflow: hidden;
+}
+
+
+/* categorias */
+
+.box{
+    margin: 10px auto;
+    width: 90%;
+    height: 65px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-img{
+    height: 100%;
+    padding: 10px;
+}
+
+.box-titulo{
+    font-size: 2rem;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.box-html{
+    background-color: red;
+}
+
+
+.box-css{
+    background-color: #0dcaf0;
+}
+
+.box-js{
+    background-color: rgb(221, 221, 38);
+}
+
+.box-react{
+    background-color: gray;
+}
+
+.box-vue{
+    background-color: green;
+}
+
+.box-boot{
+    background-color: purple;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 25px;
+}
+
+.footer__img{
+    width: 55px;
+    height: 55px;
+}
+
+.footer__brand{
+    margin-bottom: 0px;
+    font-size: 1rem;
+    font-weight: 500;
+}
